@@ -1,0 +1,18 @@
+@import "../CSSreset/CSSRESET.css";
+.loading {
+  width: 70px;
+  height: 70px;
+  border: 10px double;
+  margin: 100px;
+  border-left: 10px solid red;
+  border-right: 10px solid blue;
+  border-radius: 50%;
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes rotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}

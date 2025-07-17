@@ -1,0 +1,12 @@
+@import "../CSSreset/CSSRESET.css";
+.transform {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  margin: 40px;
+  transform: translate(-50px, 50px);
+  transform: rotate(50deg);
+  /* transform: scale(2); */
+  transform: skewy(200deg);
+/* matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) */
+}

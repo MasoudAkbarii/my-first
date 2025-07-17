@@ -1,0 +1,13 @@
+ /* .q p:first-child{
+    background-color: rebeccapurple;
+} */
+/* .q p:first-of-type{
+    background-color: red   ;
+} */
+.q p:last-child{
+    color: white;
+    background-color: green;
+}
+.q p:first-child{
+    background-color: red;
+}

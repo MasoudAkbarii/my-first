@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Sahel;
+    src: url(../fonts/Sahel.eot) format(eot),
+    url(../fonts/Sahel.woff) format(woff),
+    url(../fonts/Sahel.woff2) format(woff2);
+}
+*{
+    font-family: Sahel;
+    font-weight: bold;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ol,ul,li{
+    list-style: none;
+    display: inline;
+}
+nav.nav{
+    background-color: #efefef;
+    padding: 5px;
+
+}
+.test li{
+    padding: 5px;
+    margin: 0 5px;
+
+}
+ul.test li:hover{
+    background-color: rgb(148, 112, 161);
+    border-bottom: 1px solid red;
+    border-radius: 10px;
+    
+}   
+.p-sub-menu{
+    position: relative
+}
+.sub-menu {
+    display: inline;
+}
+.sub-menu{
+    position: absolute;
+    top: 36px;
+    right: -16px;
+    background-color: #efefef;
+    display: none;
+    padding: 10px;
+
+}
+.p-sub-menu:hover .sub-menu{
+    display: block;
+    box-shadow: -3px 4px 3px red;    
+    border-radius: 10px; 
+}
+.p2{
+    position: relative;
+}
+.sub2{
+display: block;
+
+}
+.sub2{
+    position: absolute;
+    top: 36px;
+    right: 1px;
+    background-color: #efefef;
+    display: none;
+    box-shadow: -3px 4px 3px red;    
+    border-radius: 10px; 
+}
+.p2:hover .sub2{
+    display: block;   
+}

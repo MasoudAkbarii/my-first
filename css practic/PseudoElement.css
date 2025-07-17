@@ -1,0 +1,31 @@
+/* ::first-letter{
+    color: red;
+}
+div::first-line{
+    background-color: green;
+    color: white; 
+
+    first line properties:
+    all font properties
+    all background properties
+    color
+    text-shadow
+    word-spacing
+    letter-spacing
+    text-transform
+    text-decoration
+    text-decoration-color
+    text-decoration-line
+    text-decoration-style
+    vertical-align
+    line-height
+}
+::selection{
+    color:cadetblue;
+    
+} */
+
+.a::before{
+    content: url(../img/icons8-image-50.png);
+    vertical-align: middle;
+}

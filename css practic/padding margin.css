@@ -1,0 +1,18 @@
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+    ;
+}
+.box_model{
+    background-color: #c77b7b;
+    color: black;
+    width: 450px;
+    height: 150px;
+    border: 4px solid #020202;
+    border-top: dashed;
+    border-bottom: dashed;
+    padding: 60px 150px;
+    margin: 120px 10px 0 0;
+ 
+}

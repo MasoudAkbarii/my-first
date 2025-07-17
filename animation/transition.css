@@ -1,0 +1,23 @@
+@import "../CSSreset/CSSRESET.css";
+.transition{
+    background-color: lightgreen;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 100px;
+    transition-property: all;
+    transition-duration: 1s;
+    /* cursor: grab; */
+    width: 110px;
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: linear; */
+    transition-timing-function: cubic-bezier(1, -0.39, 0, 1.17) ;
+    transition-delay: 1s;
+}
+.transition:hover{
+background-color: darkgreen;
+padding: 5px 30px;
+}
+/* .transition:active{
+cursor: grabbing;
+} */

@@ -1,0 +1,81 @@
+@font-face {
+    font-family:Sahel;
+    src: url(../fonts/Sahel.eot) format(eot),
+    url(../fonts/Sahel.woff) format(woff),
+    url(../fonts/Sahel.woff2) format(woff2);
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family:Vazir-Regular ;
+    src: url(../fonts/Vazir-Regular.eot) format(eot),
+    url(../fonts/Vazir-Regular.woff) format(woff),
+    url(../fonts/Vazir-Regular.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    /* font-family: Sahel; */
+    font-family: Vazir-Regular ;
+}
+.container{
+    max-width: 1280px;
+    min-height: 600px;
+    background-color: #efefef;
+    margin: 120px auto;
+    border: 3px solid ;
+    position: relativ;
+}
+a.a1{
+    color: black;
+    text-decoration: none;
+}
+.box{
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px dashed blue;
+    box-shadow:10px 10px 15px 3px rgb(42, 230, 149) inset ;
+    border-radius: 90px;
+    text-align: center;
+}
+.login{
+width: 300px;
+height: auto;
+background-color: #efefef;
+margin: 50px auto;
+padding: 10px;
+border-radius: 5px;
+}
+.login .form{
+width: 100%;
+margin-bottom: 15px;
+display: block;
+box-sizing: border-box;
+border: none;
+}
+.login input::placeholder{
+    padding: 5px;
+}
+.login button{
+    border: none;
+    background-color: rgb(13, 205, 13);
+    color: white;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 3px 3px 0 0 ;
+    display: block;
+    text-align: center;
+}
+.login button:hover{
+    background-color: rgb(13, 139, 13);
+    cursor: pointer
+}
+.login h3{
+    width: auto;
+    text-align: center;
+}

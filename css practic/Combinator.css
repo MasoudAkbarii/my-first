@@ -1,0 +1,24 @@
+ /* div p{
+    background-color: blue;
+    color: white;
+}
+div.a1>p{
+color: red;
+}
+div +div{
+    background-color: blue;
+    color: white;
+}
+div~span{
+    background-color: red;
+    color: white;
+} */
+#q [class |="text" ]{
+    color: red;
+}
+#w [class ^="text" ]{
+    color: red;
+}
+#t [class$="text" ]{
+    color: red;
+}

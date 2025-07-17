@@ -1,0 +1,22 @@
+@font-face {
+    font-family:Vazir-Regular ;
+    src: url(../fonts/Vazir-Regular.eot) format(eot),
+    url(../fonts/Vazir-Regular.woff) format(woff),
+    url(../fonts/Vazir-Regular.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: vazir-regular;
+}
+h1,p{
+    color: green;
+}
+.test{
+    color: red!important;
+    border: 3px dashed;
+    margin: 20px;
+}
+.test h1{
+    color: inherit;
+}

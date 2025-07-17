@@ -1,0 +1,68 @@
+@import "../CSSreset/CSSRESET.css";
+.anime {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 100px;
+  animation-name: change-color;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes change-color {
+  from {
+    width: 100px;
+    background-color: blue;
+  }
+  to {
+    width: 150px;
+    /* height: 150px; */
+    background-color: red;
+  }
+}
+.anime-2 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  margin: 100px;
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes rotate {
+  from {
+    background-color: green;
+  }
+  to {
+    background-color: blue;
+    transform: rotateZ(360deg);
+  }
+}
+.anime-3 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  animation-name: change;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  position: relative;
+}
+@keyframes change {
+  0% {
+    background-color: green;
+    top: 0px;
+    right: 0px;
+  }
+  25% {
+    background-color: rgb(72, 15, 141);
+    top: 0px;
+right: 200px;}
+  50% {
+    background-color: blueviolet;
+ top: 200px;right: 200px; }
+  75% {
+    background-color: blue;
+ top: 200px;right: 0px; }
+  100% {
+    background-color: darkblue;
+  top: 0px;right: 0px;}
+}
